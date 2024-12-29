@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navigation bar */
+.nav {
+    background-image: url("resources/background-image.png");
+    background-size: cover;
+    background-position: center;
+    height: 12em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Add this line */
+    text-align: center;
+}
+
+.nav h3 {
+    color: white;
+    font-size: 1.5em;
+    padding: 2em;
+    /* align-content: center;
+    text-align: center; */
+}
+
+.nav p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.534);
+    padding: 6px;
+    border-radius: 15PX;
+    /* align-content: center;
+    text-align: center; */
+}
+
+body {
+    height: 100vh;
+}
